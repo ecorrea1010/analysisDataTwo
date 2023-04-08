@@ -13,3 +13,10 @@ def graphOne(data):
     ax.set_ylabel('Social class')
     ax.legend()
     plt.show()
+
+def graphTwo(data):
+    plt.hist(data['Age'], bins=10, color='green')
+    plt.title('Passengers age histogram')
+    plt.xlabel('Age')
+    plt.ylabel('Frequency')
+    plt.show()
