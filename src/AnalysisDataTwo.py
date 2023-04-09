@@ -16,7 +16,7 @@ def prepareData():
 
 def createGraphics():
     global data
-    graphics.graphTwo(data)
+    graphics.graphFour(data)
 
 def run():
     print('Task 3 - practical component - simulated practices')
